@@ -1,0 +1,329 @@
+<section class="container-fluid" id="cursos">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-">
+            <div class="card ">
+                <div class="card-body">
+                    <h5 class="card-title">Administração e Negocios</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="card-footer">
+                        <a class="btn" (click)="mostrar()"  role="button">Visualize-os</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card ">
+                <div class="card-body">
+                    <h5 class="card-title">Beleza e Saúde</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                        <div class="card-footer">
+                        <a class="btn" (click)="mostrar()" >Visualize-os</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card ">
+                <div class="card-body">
+                    <h5 class="card-title">Engenharia e Tecnologia</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="card-footer">
+                        <a class="btn" (click)="mostrar()"  role="button">Visualize-os</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===== BELEZA E SAUDE =====-->
+<section  class="beleza" *ngIf="_exibirHealt">
+            <div class="row align-items-start" >
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Alongamento Unhas de Fibra </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Auxliar Téc. Farmácia </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Barbeiro </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn ">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Cabeleireiro Básico </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Cabeleireiro Colorimetria </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn ">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Corte e Costura Avançado </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn ">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Corte e Costura Modelagem </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Depilação </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Designer de Sombracelhas </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Estética Facial </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3" >
+                    <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Manicure </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn">Inscreva-se Já</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+</section>
+<!--===== ADMINISTRACAO E NEGOCIOS =====-->
+ <section class="negocios" *ngIf="_exibirAdm" data-aos="fade-down">
+            <div class="row align-items-start" >
+                    <div class="col-lg-3 col-md-6 mt-3" >
+                        <div class="card" style="width: 18rem;" >
+                            <div class="card-body">
+                                <h5 class="card-title"> Auxiliar Administrativo </h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Auxiliar Jurídico </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Contabilidade e Finanças </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Emprendedorismo </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Inglês Básico </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Redação para Enem</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3" >
+                                <div class="card" style="width: 18rem;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Téc. em Vendas e telemarketing </h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn">Inscreva-se Já</a>
+                                    </div>
+                                </div>
+                            </div>
+            </div>
+        
+</section>
+<!-- ===== ENGENHARIA E TECNOLOGIA =====-->
+<section class="engenharia"  *ngIf="_exibirTech" data-aos="fade-down">
+    <div class="row align-items-start" >
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                    <h5 class="card-title"> Desingner Gráfico e Mídias Sociais </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Digitação </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a  routerLink="/formulario" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Eletricista Industrial </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Elétrica Residencial Básica </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Elétrica Residencial com NR10 </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Excel Avançado (Manipulação de Dados) </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Gestão de Obras Civil </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Informática para Mercado de Trabalho </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3" >
+            <div class="card" style="width: 18rem;" >
+            
+                <div class="card-body">
+                <h5 class="card-title"> Manutenção de Smartphone </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  mt-3" >
+            <div class="card" style="width: 18rem;" >      
+                <div class="card-body">
+                <h5 class="card-title"> Segurança do Trabalho </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Inscreva-se Já</a>
+                </div>
+            </div>
+        </div>
+</div>
+</section>  

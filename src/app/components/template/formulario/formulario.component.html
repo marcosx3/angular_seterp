@@ -1,0 +1,82 @@
+
+<div class="container">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="firstName" class="col-sm-3 control-label">Nome</label>
+            <div class="col-sm-9">
+                <input type="text" id="firstName" placeholder="Nome" class="form-control" autofocus>
+            </div>
+        </div><br>
+        <div class="form-group">
+            <label for="lastName" class="col-sm-3 control-label">Sobrenome</label>
+            <div class="col-sm-9">
+                <input type="text" id="lastName" placeholder="Sobrenome" class="form-control" autofocus>
+            </div>
+        </div><br>
+        <div class="form-group">
+            <label for="cpf" class="col-sm-3 control-label">CPF</label>
+            <div class="col-sm-9">
+                <input type="text" id="cpf" placeholder="000.000.000-00" class="form-control" autofocus>
+            </div>
+        </div><br>
+        <div class="form-group">
+            <label for="endereco" class="col-sm-3 control-label">Endereco</label>
+            <div class="col-sm-9">
+                <input type="text" id="endereco" placeholder="Ex: Rua Poços de Caldas" class="form-control" autofocus>
+            </div>
+        </div><br>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email* </label>
+            <div class="col-sm-9">
+                <input type="email" id="email" placeholder="brazil@brazil.com" class="form-control" name= "email">
+            </div>
+        </div><br>
+        
+        <div class="form-group">
+            <label for="birthDate" class="col-sm-3 control-label">Data de Nascimento*</label>
+            <div class="col-sm-9">
+                <input type="date" id="birthDate" class="form-control">
+            </div>
+        </div><br>
+        <div class="form-group">
+            <label for="phoneNumber" class="col-sm-3 control-label">Telefone </label>
+            <div class="col-sm-9">
+                <input type="phoneNumber" id="phoneNumber" placeholder="Telefone" class="form-control">
+                <span class="help-block">Seu número de telefone não será divulgado em lugar nenhum. </span>
+            </div>
+        </div><br>
+       
+        <div class="form-group">
+            <label class="control-label col-sm-3">Gênero</label>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="femaleRadio" name="genero" value="Feminino"> Female
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="maleRadio" name="genero" value="Masculino"> Masculino
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="maleRadio" name="genero" value="Outros"> Outros
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+        <select class="form-select" aria-label="Default select example">
+            <option value="0"> Selecione a Categoria</option>
+          </select>
+        <!-- /.form-group -->
+        <div class="form-group">
+            <div class="col-sm-9 col-sm-offset-3">
+                <span class="help-block">*Preenchimento Obrigatório</span>
+            </div>
+        </div><br>
+        <button type="submit" class="btn btn-primary btn-block">Register</button>
+    </form> <!-- /form -->
+</div> <!-- ./container -->
